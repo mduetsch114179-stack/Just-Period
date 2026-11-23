@@ -1,9 +1,14 @@
-Just Period v5 — iPhone layout and collapsible sections
+JUST PERIOD — COMPLETE BLUE APP (V8)
 
-Upload all files in this ZIP to the root of your existing GitHub Just-Period repository, replacing files with the same names. Do not upload private period backups. Wait for GitHub Pages to deploy, then close and reopen the installed app. If the old version persists, refresh the Safari website and reopen the Home Screen app.
+UPLOAD TO GITHUB PAGES
+1. Extract this ZIP on your PC.
+2. Open your existing GitHub repository: mduetsch114179-stack/Just-Period.
+3. Back up period data in your installed app BEFORE updating.
+4. Upload all seven files from this folder into the repository ROOT, replacing existing files with the same names.
+5. Commit the changes on the main branch. Keep GitHub Pages configured to main / (root).
+6. Wait for deployment, then reopen https://mduetsch114179-stack.github.io/Just-Period/ on your iPhone.
+7. The separate quick logger is at https://mduetsch114179-stack.github.io/Just-Period/log.html.
 
-The calendar stays visible. Quick logging instructions, Log or edit, History, and Settings are collapsible. Symptoms are optional and stored in the same on-device backup.
+IMPORTANT: Do not upload your exported period backup JSON to GitHub. Period history and daily symptoms are stored locally in browser storage on your device, not in the repository. Keep the existing Home Screen app and website origin to retain its data. Avoid clearing Safari website data.
 
-Important: Do not delete the installed app or clear website data to update it; export a backup before updating.
-
-Version 7: Blue theme. All data keys and features retained. Upload all files to the same GitHub Pages repository.
+FEATURES: blue theme, calendar, start/end period, Flo history import, cycle estimates, daily symptom tracking and notes, collapsible sections, quick logger, offline caching, backup and restore.
