@@ -1,10 +1,7 @@
-Just Period v4
+Just Period v5 — iPhone layout and collapsible sections
 
-1. Publish all files in this folder together on a private HTTPS static website.
-2. In iPhone Safari, open the hosted index.html and use Share > Add to Home Screen.
-3. For the quick logger, open log.html in Safari and add that separately to Home Screen.
-4. In Just Period, expand Settings & privacy and tap Import my Flo history (15 periods).
-5. Import only once. Existing records with matching start dates are preserved.
-6. Export backups periodically. Clearing Safari website data may erase records.
+Upload all files in this ZIP to the root of your existing GitHub Just-Period repository, replacing files with the same names. Do not upload private period backups. Wait for GitHub Pages to deploy, then close and reopen the installed app. If the old version persists, refresh the Safari website and reopen the Home Screen app.
 
-No data is sent by the app to an analytics or sync server. Your hosting provider can still receive ordinary site requests and logs. The app has no Face ID lock.
+The calendar stays visible. Quick logging instructions, Log or edit, History, and Settings are collapsible. Symptoms are optional and stored in the same on-device backup.
+
+Important: Do not delete the installed app or clear website data to update it; export a backup before updating.
