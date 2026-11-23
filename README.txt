@@ -12,3 +12,5 @@ UPLOAD TO GITHUB PAGES
 IMPORTANT: Do not upload your exported period backup JSON to GitHub. Period history and daily symptoms are stored locally in browser storage on your device, not in the repository. Keep the existing Home Screen app and website origin to retain its data. Avoid clearing Safari website data.
 
 FEATURES: blue theme, calendar, start/end period, Flo history import, cycle estimates, daily symptom tracking and notes, collapsible sections, quick logger, offline caching, backup and restore.
+
+V9: Collapsible interactive trend graph for cycle and period lengths; existing local data keys unchanged.
