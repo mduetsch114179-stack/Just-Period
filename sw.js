@@ -1,5 +1,5 @@
-const CACHE='just-period-v8-complete-blue';
-const ASSETS=['./','./index.html','./manifest.webmanifest','./icon.png','./log.html','./log-icon.png'];
+const CACHE='just-period-v11-no-quick-logger';
+const ASSETS=['./','./index.html','./manifest.webmanifest','./icon.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('just-period-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{

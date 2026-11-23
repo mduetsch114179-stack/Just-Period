@@ -14,3 +14,7 @@ IMPORTANT: Do not upload your exported period backup JSON to GitHub. Period hist
 FEATURES: blue theme, calendar, start/end period, Flo history import, cycle estimates, daily symptom tracking and notes, collapsible sections, quick logger, offline caching, backup and restore.
 
 V9: Collapsible interactive trend graph for cycle and period lengths; existing local data keys unchanged.
+
+V10: Fixed oversized iPhone date fields, compact 46px controls, and dark-mode symptom checkbox contrast.
+
+V11: Removed separate Home Screen quick logger and related files. In-app period logging remains. Local storage keys unchanged.
